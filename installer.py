@@ -28,11 +28,11 @@ def main():
 			
 			os.system("chmod +x /usr/bin/visql")
 
-			print "\n\n[+] Installation finished, type 'visql' to use program!"
+			print("\n\n[+] Installation finished, type 'visql' to use program!")
 		else:
-			print "Run as root!"
+			print("Run as root!")
 	else:
-		print "This script doesn't work on Windows!"
+		print ("This script doesn't work on Windows!")
 
 if __name__ == "__main__":
 	main()
